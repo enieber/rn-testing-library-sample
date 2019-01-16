@@ -1,0 +1,46 @@
+{
+  "name": "rnTests",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "docz:dev": "docz dev",
+    "test": "jest --forceExit  --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "react": "16.5.0",
+    "react-art": "^16.7.0",
+    "react-native": "^0.57.0",
+    "react-native-web": "^0.10.0-alpha.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "^4.0.1",
+    "docz": "^0.11.2",
+    "docz-plugin-react-native": "^0.11.2",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.45.2",
+    "react-native-mock": "^0.3.1",
+    "react-native-testing-library": "^1.5.0",
+    "react-test-renderer": "^16.5.0",
+    "sinon": "^6.3.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "testMatch": [
+      "**/?(*.)test.js?(x)"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "<rootDir>/jest/setup.js"
+    ]
+  }
+}

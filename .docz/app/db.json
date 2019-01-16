@@ -1,0 +1,30 @@
+{
+  "config": {
+    "title": "Rn Tests",
+    "description": "My awesome app using docz",
+    "themeConfig": {},
+    "ordering": "descending",
+    "version": "0.0.1",
+    "repository": null,
+    "native": true
+  },
+  "entries": {
+    "src/product/Product.mdx": {
+      "name": "Product",
+      "menu": "Components",
+      "id": "ec1b068dab1342d24670384f7d835169",
+      "filepath": "src/product/Product.mdx",
+      "link": null,
+      "slug": "src-product-product",
+      "route": "/src-product-product",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    }
+  }
+}
